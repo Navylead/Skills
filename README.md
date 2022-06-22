@@ -1,11 +1,10 @@
 # Skills
-## Kirill Dyshaev
 ### About Me
 I'm a junior QA trying to do my best in learning new skills)
 ### Skills
 * **Testing theory**
 * **Manual testing**
-* **SQL(MySQL/Postgres): select, where, order by, having, group by, join, except + create, alter, foreign key, update, insert.**
+* **SQL(MySQL/Postgres): select, where, order by, having, group by, join, except + create, alter, foreign key, update, insert**
 * **JS basics(functions, if, while, for)**
 * **GitHub(repositories, branches)**
 * **Postman(chai tests, collections, environments)**
