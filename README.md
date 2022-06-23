@@ -7,7 +7,7 @@ I'm a junior QA trying to do my best in learning new skills)
 * **SQL(MySQL/Postgres):** select, where, order by, having, group by, join, except + create, alter, foreign key, update, insert
 * **JS basics**(functions, if, while, for)
 * **GitHub**(repositories, branches)
-* **Postman**(chai tests, collections, environments)
+* **Postman**(JS, auto tests API, collections, environments)
 * **DevTools**(network, elements, console, sources, throttling, user agent)
 * **Charles**(breakpoints, rewrites)
 * **Android Studio**
