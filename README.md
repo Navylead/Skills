@@ -13,6 +13,9 @@ I'm a junior QA trying to do my best in learning new skills)
 * **Android Studio**
 ### Code Examples
 ```
+select project, commits, contributors, regexp_replace(address,'[0-9]','!','g') address from repositories;
+```
+```
 select monthly_salary, role_name, employee_name from employee_salary es 
 join salary s on s.id = es.salary_id 
 join roles_employee re on re.employee_id = es.employee_id 
