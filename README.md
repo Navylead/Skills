@@ -13,9 +13,18 @@ I'm a junior QA trying to do my best in learning new skills)
 * **DevTools**(network, elements, console, sources, throttling, user agent)
 * **Charles**(breakpoints, rewrites)
 * **Android Studio**
-### Code Examples
+### Code Examples:
 ```
 select project, commits, contributors, regexp_replace(address,'[0-9]','!','g') address from repositories;
+```
+```
+select case
+when sum(number1)%2=0 then (select max(number1) from numbers)
+else (select min(number1) from numbers)
+end number1, case 
+when sum(number2)%2=0 then (select max(number2) from numbers)
+else (select min(number2) from numbers)
+end number2 from numbers
 ```
 ```
 select monthly_salary, role_name, employee_name from employee_salary es 
