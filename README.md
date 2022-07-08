@@ -37,7 +37,7 @@ where role_name like '%Junior%' and role_name like '%Python%';
 ### Education
 * [Vadim Ksendzov](https://ksendzov.com/) course
   * Manual testing
-* A. Rusov course
+* A. Rusov youtube-course
   * Manual testing
 * Magnitogorsk State Technical University
   * Mining engineer
