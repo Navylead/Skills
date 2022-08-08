@@ -13,8 +13,8 @@ I'm a junior QA trying to do my best in learning new skills)
 * **DevTools**(network, elements, console, sources, throttling, user agent)
 * **Charles**(breakpoints, rewrites)
 * **Android Studio**
-* **JMETER(api, sql, web)
-* **JIRA
+* **JMETER(api, sql, web)**
+* **JIRA**
 ### Code Examples:
 ```
 select project, commits, contributors, regexp_replace(address,'[0-9]','!','g') address from repositories;
