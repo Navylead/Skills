@@ -1,6 +1,6 @@
 # Skills
 ### About Me
-I'm a junior QA trying to do my best in learning new skills)
+I'm a QA tester trying to do my best in learning new skills in manual and automation testing)
 ### Skills
 * **Testing theory**
 * **Manual testing**
@@ -15,6 +15,7 @@ I'm a junior QA trying to do my best in learning new skills)
 * **Android Studio**
 * **JMETER(api, sql, web)**
 * **JIRA**
+* **JEST(Supertest)**
 ### Code Examples:
 ```
 select project, commits, contributors, regexp_replace(address,'[0-9]','!','g') address from repositories;
