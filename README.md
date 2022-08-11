@@ -1,6 +1,6 @@
 # Skills
 ### About Me
-I'm a QA tester trying to do my best in learning new skills in manual and automation testing)
+I'm a QA tester trying to do my best in learning new skills in manual, load and automation testing)
 ### Skills
 * **Testing theory**
 * **Manual testing**
