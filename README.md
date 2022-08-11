@@ -46,4 +46,4 @@ where role_name like '%Junior%' and role_name like '%Python%';
   * Mining engineer
 ### Languages
 * **Russian** - native
-* **English** - A2-B1
+* **English** - B1
