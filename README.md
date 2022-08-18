@@ -16,7 +16,8 @@ I'm a QA tester trying to do my best in learning new skills in manual, load and 
 * **JMETER(api, sql, web)**
 * **JIRA**
 * **JEST(Supertest)**
-### Code Examples:
+### Code Examples
+#### SQL:
 ```
 select project, commits, contributors, regexp_replace(address,'[0-9]','!','g') address from repositories;
 ```
@@ -36,6 +37,48 @@ join roles_employee re on re.employee_id = es.employee_id
 join roles r on r.id = re.role_id
 join employees e on e.id = es.employee_id
 where role_name like '%Junior%' and role_name like '%Python%';
+```
+#### JEST(Supertest):
+```
+const request = require('supertest');
+const expect = require('chai').expect;
+const url = request('https://reqres.in/api');
+const aut = {'email':'eve.holt@reqres.in', 'password':'cityslicka'}
+
+describe('API', ()=>{
+    it('test_1 Register', (done)=>{
+        url
+            .post('/register')
+            .send({'email':'eve.holt@reqres.in', 'password':"pistol"})
+            .expect(200)
+            .expect('Content-Type', /json/)
+            .end((err,res)=>{
+                expect(res.body.id).to.be.equal(4);
+                expect(res.body).to.have.property('token');
+                if(err){
+                    throw 'lol';
+                }
+                else console.log(res.body.token)
+                done();
+            })
+    })
+    it('test_2 Autorization', function(done){
+        url
+            .post('/login')
+            .send(aut)
+            .expect(200)
+            .expect('Content-Type', /json/)
+            .end(function(err,res){
+                expect(res.body.token).to.be.equal('QpwL5tke4Pnpja7X4');
+                expect(res.body).to.have.property('token');
+                if(err) {
+                    throw err;
+                }
+                done();
+            })
+
+    })
+})
 ```
 ### Education
 * [Vadim Ksendzov](https://ksendzov.com/) course
