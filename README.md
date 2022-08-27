@@ -16,6 +16,7 @@ I'm a QA tester trying to do my best in learning new skills in manual, load and 
 * **JMETER(api, sql, web)**
 * **JIRA**
 * **JEST(Supertest)**
+* **Cypress(e2e tests)**
 ### Code Examples
 #### SQL:
 ```
